@@ -24,10 +24,11 @@ session_start();
         </li>
 
         <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+        <li>
         <?php
         if (isset($_SESSION['loggedin'])) {
           echo '<a class="nav-link scrollto" href="dash.php">Dashboared</a></li>';
-        } ?>
+        } ?></li>
         <li><a class="nav-link scrollto" href="portfolio-details.php">Portfolio</a></li>
         <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
         <li><a href="blog.php">Blog</a></li>
